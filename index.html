@@ -64,7 +64,7 @@
 <div class="caption text-center">
 	<h1>Welcome To My Website</h1>
 	<h3>By Kevin Zheng	</h3>
-	<a class="btn btn-outline-light btn-lg" href="#experience">Get Started</a>
+	<button class="btn btn-outline-light btn-lg" onclick="scrollFunction('experience')"> Get Started </button>
 </div>
 <!----End Landing Page Section--->
 </div>
@@ -83,7 +83,7 @@
 		<div class="col-md-5 text-center">
 			<h4>UofSC Research Computing Group - Columbia, SC</h4>
 			<hr class="clients-hr">
-			<h5>Undergrad Research Assistant 	<h6><i class="fa fa-calendar fa-fw mr-2"></i>Feb 2020 - August 2020</h6>
+			<h5>Undergrad Research Assistant <h6><i class="fa fa-calendar fa-fw mr-2"></i>Feb 2020 - August 2020</h6>
 			</h5>
 			<div class="d-flex justify-content-center">
 				<ul class="text-left">
@@ -95,11 +95,6 @@
 	</div>
 </div>
 <!---- End Experience Section-->
-
-
-
-
-
 
 <!---- Start Education Section---->
 <div id="education" class="offset">
@@ -338,7 +333,7 @@
 			<div class="d-flex justify-content-center">
 				<ul class="text-left">
 				<li>Calculus I & II</li>
-				<li>Vector Calculus/Calculus III</li>
+				<li>Vector Calculus / Calculus III</li>
 				<li>Discrete Math</li>
 				<li>Statistics for Engineers</li>
 				<li>Applied Linear Algebra</li>
@@ -376,6 +371,22 @@
 <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 <!--- End of Script Source Files -->
+
+
+<!--- Script  -->
+<script>
+	function scrollFunction(inputLink) {
+        let e = document.getElementById(inputLink);
+        e.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth',
+          inline: 'start'
+        });
+      }
+</script>
+<!--- End of Script  -->
+
+
 
 </body>
 </html>
