@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +11,6 @@
 </head>
 
 <body data-spy="scroll">
-
 	<!--- Script Source Files -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
@@ -21,45 +21,26 @@
 <div id="home">
 
 <!---- Navigation---->
-<nav class ="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="">Kevin Zheng</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-
-	<div class="collapse navbar-collapse" id="navbarResponsive">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#home">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#about">About Me</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#experience">Experience</a>
-			</li>
-
-			<li class="nav-item">
-				<a class="nav-link" href="#portfolio">Portfolio</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#Skills_and_Interest">Skills</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#education">Education</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#course">Course</a>
-			</li>	
-			<li class="nav-item">
-				<a class="nav-link" href="#contact">Contact</a>
-			</li>
-		</ul>
-	</div>
-</nav>	
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Kevin Zheng</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Skills_and_Interest">Skills</a></li>
+			<li class="nav-item"><a class="nav-link" href="#Certifications">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#course">Course</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 <!---- End Navigation---->
-
-
 
 <!----Start Landing Page Section--->
 <div class="landing">
@@ -70,7 +51,7 @@
 </div>
 
 <div class="caption text-center">
-	<h1>Welcome To My Website</h1>
+	<h1>Hello! Welcome To My Website</h1>
 	<h3>By Kevin Zheng	</h3>
 	<button class="btn btn-outline-light btn-lg" onclick="scrollFunction('about')"> Get Started </button>
 </div>
@@ -80,82 +61,74 @@
 
 <!---- Start About Me Section---->
 <div id="about" class="offset">
-	<div class="jumbotron">
-	<div class="col-12 text-center">
-		<h3 class="heading">About Me</h3>
-		<div class="heading-underline"></div>
-	</div>
-	<div class="row justify-content-center">
-		<div class="col-md-5 text-center">
-			<p>
-				I have a strong interest in tech, math, and finance.
-			</p>
-			<p>
-				In my free time I love to read books on various subjects.
-			</p>
-		</div>
-	</div>
-	</div>
+    <div class=" text-center">
+        <h3 class="heading">About Me</h3>
+        <div class="heading-underline"></div>
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <p>I have a strong interest in tech, math, and finance.</p>
+                <p>In my free time I love to read books on various subjects.</p>
+            </div>
+        </div>
+
 </div>
 <!---- End About Me  Section-->
 
 <!---- Start Experience Section---->
 <div id="experience" >
+<div class = "jumbotron">
 	<div class="col-12 text-center">
 		<h3 class="heading">Work Experience</h3>
 		<div class="heading-underline"/>
 	</div>
-
-
-
-	<div class="row justify-content-center">
-		<div class="spinner col-md-5 text-center border border-primary rounded">
-			<div class="container row" >
-			<img src="./img/bdsi.png" width="10%">
-			<h4>Boeing Distribution Services, Inc. - HCL Technologies</h4>
-			</div>
-			<hr class="clients-hr">
-			<h3>Software Developer 
+			<div class="row justify-content-center">
+			<div class="spinner col-md-5 text-center border border-primary rounded">
+				<div class="container row">
+					<img src="./img/bdsi.png" width="10%">
+					<h3>Boeing Distribution Services, Inc. - HCL Technologies</h3>
+				</div>
+				<hr class="clients-hr">
+				<h3>Software Developer</h3>
 				<h6>
-					<i class="fa fa-calendar fa-fw mr-2"></i>August 2021 - Present</h6>
-			</h3>
-			<div class="d-flex justify-content-center">
-				<ul class="text-left">
-				<li>Analyzed the functional requirement and proposed a technical resolution.</li>
-				<li>Mapped the technical design for the program or enhancement necessary.</li>
-				<li>Improved the functionality of existing programs by implementing a feature that blocks transactions based on
-					requirements from multiple databases. As a result, the process is now automated, and users experience an average time
-					reduction of 25% compared to the previous manual approach.</li>
-				<li>Developed a program that automates data extraction from Excel files and uploads it into existing database fields. This
-					automated approach resulted in a 50% reduction in data input time compared to the manual method.</li>
-				<li>Resolved defects, conducted peer and QA reviews, and produced system and program documentation.</li>
-				<li>Collaborated and gathered requirements from clients, end-users, functionals, QA testers, and other stakeholders.</li>
-				<li>Mentored new team members in business processes and coding standards.</li>
-				<li>Developed the solution using Java, ABAP, and OpenSQL coding languages. </li>
-			</ul>
+					<i class="fa fa-calendar fa-fw mr-2"></i>August 2021 - Present
+				</h6>
+				<div class="d-flex justify-content-center">
+					<ul class="text-left">
+						<li>Analyzed functional requirements, proposed technical resolutions, and mapped technical designs for program enhancements.</li>
+						<li>Implemented features that automated transactions, reducing time by 25% compared to manual processes.</li>
+						<li>Developed programs for automated data extraction from Excel into databases, cutting data input time by 50%.</li>
+						<li>Resolved defects, conducted reviews, and produced documentation.</li>
+						<li>Collaborated with stakeholders including clients, end-users, QA testers, and other departments.</li>
+						<li>Mentored new team members in business processes and coding standards.</li>
+						<li>Developed solutions using Java, ABAP, and OpenSQL.</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-	</div>
+	
 
 	<div class="row justify-content-center" >
 		<div class=" spinner col-md-5 text-center border border-primary rounded"  >
-			<div class="container row" >
-			<img src="./img/UofSCLogo.png" width="30%">
-			<h4>UofSC Research Computing Group</h4>
-		</div>
+				<div class="container row" >
+				<img src="./img/UofSCLogo.png" width="30%">
+				<h3>UofSC Research Computing Group</h3>
+			</div>
 			<hr class="clients-hr">
-			<h5>Undergrad Research Assistant <h6><i class="fa fa-calendar fa-fw mr-2"></i>Feb 2020 - August 2020</h6>
-			</h5>
+			<h3>Undergrad Research Assistant </h3> 
+			<h6>
+				<i class="fa fa-calendar fa-fw mr-2"></i>Feb 2020 - August 2020
+			</h6>
 			<div class="d-flex justify-content-center">
 				<ul class="text-left">
-				<li>Developed web applications using React, Node.js, and MongoDB to process, analyze, and visualize data.</li>
-				<li>Implemented designs from UI/UX designers and end-users to improve user experience.</li>
-				<li> Created and revised program-related documents covering aspects such as program design, objectives, problem-solving strategies, system requirements, data sources, and associated systems.</li>
-				<li>Performed Agile development practices, with recurring meetings for standups, planning, and refinement.</li>
-			</ul>
+					<li>Developed web applications using React, Node.js, and MongoDB to process, analyze, and visualize data.</li>
+					<li>Implemented designs from UI/UX designers and end-users to improve user experience.</li>
+					<li> Created and revised program-related documents covering aspects such as program design, objectives, problem-solving strategies, system requirements, data sources, and associated systems.</li>
+					<li>Performed Agile development practices, with recurring meetings for standups, planning, and refinement.</li>
+				</ul>
 			</div>
 		</div>
 	</div>
+	
 
 	<div class="row justify-content-center">
 		<div class="col-md-5 text-center border border-primary rounded" >
@@ -174,13 +147,14 @@
 			</div>
 		</div>
 	</div>
+	</div>
 </div>
 <!---- End Experience Section-->
 
 
 <!---- Start Portfolio Section---->
 <div id="portfolio" class="offset">
-	<div class="jumbotron">
+
 		<div class="narrow text-center" >
 			<div class="col-12">
 				<h3 class="heading">Portfolio</h3>
@@ -211,7 +185,6 @@
 							programming algorithm.</p>
 					</div>
 				</div>
-
 
 				<div class="each-project data col-lg-4 col-md-6 col-sm-12">
 					<a href="https://github.com/42kevinzheng/Power-BI-Kickstarter-Graphs" target="_blank">
@@ -349,12 +322,13 @@
 	
 			</div> <!--End Row-->
 		</div> <!---End Narrow-->
-	</div>
+
 </div>
 <!---- End Portfolio Section-->
 
 <!---- Start Skills_and_Interest Section---->
 <div id="Skills_and_Interest" class="offset">
+<div class="jumbotron">
 	<div class="col-12 text-center">
 		<h3 class="heading">Skills and Interest</h3>
 		<div class="heading-underline"></div>
@@ -376,10 +350,7 @@
 				</ul>
 			</div>
 		</div>
-	</div>
 
-
-	<div class="row justify-content-center">
 		<div class="col-md-5 text-center">
 			<h4>Tools/Libraries</h4>
 			<hr class="clients-hr">
@@ -395,9 +366,6 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-
-	<div class="row justify-content-center">
 		<div class="col-md-5 text-center">
 			<h4>Spoken/Written Languages</h4>
 			<hr class="clients-hr">
@@ -409,8 +377,59 @@
 			</div>
 		</div>
 	</div>
+	</div>
 </div>
 <!---- End Skills_and_Interest Section-->
+
+
+<!---- Start Certifications Section---->
+<div id="Certifications" class="offset">
+    <div class="col-12 text-center">
+      <h3 class="heading">Certifications</h3>
+      <div class="heading-underline"></div>
+    </div>
+
+    <!-- First Row with 4 images -->
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 text-center">
+        <img src="./img/aws_cloud_prac.png" class="img-fluid cert-img mb-3" alt="AWS Cloud Practitioner">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 text-center">
+        <img src="./img/aws_ai.png" class="img-fluid cert-img mb-3" alt="AWS AI">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 text-center">
+        <img src="./img/aws_dev.png" class="img-fluid cert-img mb-3" alt="AWS Developer">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 text-center">
+        <img src="./img/salesforce_ai.png" class="img-fluid cert-img mb-3" alt="Salesforce AI">
+      </div>
+    </div>
+
+    <!-- Second Row with 3 images (aligned to 4 column setup) -->
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 text-center img-column">
+        <img src="./img/aws_tech_ess.png" class="img-fluid cert-img mb-3" alt="AWS Tech Essentials">
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3 text-center img-column">
+        <img src="./img/aws_early_ai.png" class="img-fluid cert-img mb-3" alt="AWS Early AI">
+      </div>
+	  <div class="col-12 col-sm-6 col-md-3 col-lg-3 text-center img-column">
+        <img src="./img/aws_gen_ai_ess.png" class="img-fluid cert-img mb-3" alt="AWS Gen AI Essentials">
+      </div>
+	  <div class="col-12 col-sm-6 col-md-3 col-lg-3 text-center">
+      </div>
+    </div>
+</div>
+
+<style>
+  .cert-img {
+    width: 150%;
+    height: 250px; /* Fixed height for uniformity */
+    object-fit: contain; /* Maintain aspect ratio without stretching */
+  }
+</style>
+<!---- End Certifications Section-->
+
 
 <!---- Start Education Section---->
 <div id="education" class="offset">
@@ -434,47 +453,51 @@
 <!---- End Education Section-->
 
 <!---- Start Course Section---->
+
 <div id="course" class="offset">
 	<div class="col-12 text-center">
-		<h3 class="heading">Relavant Coursework</h3>
-		<div class="heading-underline"></div>
-	</div>
-	<div class="row justify-content-center">
-		<div class="col-md-5 text-center">
-			<h4>Computer Science (Upper Division Course*)</h4>
-			<hr class="clients-hr">
-			<div class="d-flex justify-content-center">
-			<ul class="text-left">
-				<li>Algorithmic Design I & II</li>
-				<li>Data Structure & Algorithms</li>
-				<li>Operating Systems</li>
-				<li>Intro to Computer Networks</li>
-				<li>Foundations of Computation</li>
-				<li>Programming Language Structures</li>
-				<li>Text Processing *</li>
-				<li>Data Visualization *</li>
-				<li>Database System Design *</li>
-				<li>Artificial Intelligence *</li>
-			</ul>
-		</div>
-		</div>
-	</div>
-
-	<div class="row justify-content-center">
-		<div class="col-md-5 text-center">
-			<h4>Math</h4>
-			<hr class="clients-hr">
-			<div class="d-flex justify-content-center">
-				<ul class="text-left">
-				<li>Calculus I & II</li>
-				<li>Vector Calculus / Calculus III</li>
-				<li>Discrete Math</li>
-				<li>Statistics for Engineers</li>
-				<li>Applied Linear Algebra</li>
-			</ul>
-			</div>
-		</div>
-	</div>
+        <h3 class="heading">Relevant Coursework</h3>
+        <div class="heading-underline"></div>
+    </div>
+    
+    <!-- One row to contain both sections side by side -->
+    <div class="row justify-content-center">
+        
+        <!-- Computer Science Section -->
+        <div class="col-md-5 text-center">
+            <h4>Computer Science (Upper Division Course*)</h4>
+            <hr class="clients-hr">
+            <div class="d-flex justify-content-center">
+                <ul class="text-left">
+                    <li>Algorithmic Design I & II</li>
+                    <li>Data Structure & Algorithms</li>
+                    <li>Operating Systems</li>
+                    <li>Intro to Computer Networks</li>
+                    <li>Foundations of Computation</li>
+                    <li>Programming Language Structures</li>
+                    <li>Text Processing *</li>
+                    <li>Data Visualization *</li>
+                    <li>Database System Design *</li>
+                    <li>Artificial Intelligence *</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Math Section -->
+        <div class="col-md-5 text-center">
+            <h4>Math</h4>
+            <hr class="clients-hr">
+            <div class="d-flex justify-content-center">
+                <ul class="text-left">
+                    <li>Calculus I & II</li>
+                    <li>Vector Calculus / Calculus III</li>
+                    <li>Discrete Math</li>
+                    <li>Statistics for Engineers</li>
+                    <li>Applied Linear Algebra</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 <!---- End Course Section-->
 
@@ -494,7 +517,7 @@
 				<a href="https://www.linkedin.com/in/42-kevin-zheng/" target="_blank"> <i class="fab fa-linkedin"></i></a>
 			</div>
 			<hr class="socket">
-			&copy; 2023 Kevin Zheng
+			&copy; 2025 Kevin Zheng
 		</div>
 	</footer>
 </div>
